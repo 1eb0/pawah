@@ -1,0 +1,11 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#000000" width="100px" height="100px" viewBox="0 0 24 24" id="caution-sign-circle" data-name="Line Color" xmlns="http://www.w3.org/2000/svg" class="icon line-color">
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"/>
+<g id="SVGRepo_iconCarrier">
+<line id="secondary-upstroke" x1="11.95" y1="16.5" x2="12.05" y2="16.5" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; stroke: #195292;"/>
+<rect id="primary" x="3" y="3" width="18" height="18" rx="9" style="fill: none; stroke: #fecf0a; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2;"/>
+<line id="secondary" x1="12" y1="12" x2="12" y2="7" style="fill: none; stroke-linecap: round; stroke-linejoin: round; stroke-width: 2; stroke: #195292;"/>
+</g>
+</svg>

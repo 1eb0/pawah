@@ -1,0 +1,226 @@
+{
+    "accts": [
+        {
+
+            "mike-mtr-no": "45077353584, ",
+            "fubu-mtr-no": "37182585010, 2500 - 82.28"
+        }
+    ],
+    
+    
+    "data": [
+        {
+            "accountReference": "112337183",
+            "fullName": "JOHN NJUGUNA NGANGA",
+            "idService": 10824330,
+            "idPaymentForm": 11233718,
+            "colPrepayment": [
+                {
+                    "servicePointNo": "10699656A0|AR031|2113",
+                    "trnTimestamp": 1715793815000,
+                    "tokenNo": "29310561938010550303",
+                    "accountNumber": "112337183-S1",
+                    "custName": "112337183-S1",
+                    "customerNumber": "931063-S1",
+                    "transactionId": 0,
+                    "recptNo": null,
+                    "concepts": [
+                        {
+                            "codConcept": "RESREPL0",
+                            "amount": 15.07
+                        },
+                        {
+                            "codConcept": "RESWARMAL0",
+                            "amount": 0.48
+                        },
+                        {
+                            "codConcept": "RESERCL0",
+                            "amount": 1.97
+                        },
+                        {
+                            "codConcept": "RESINFL0",
+                            "amount": 8.13
+                        },
+                        {
+                            "codConcept": "RESFOREX0",
+                            "amount": 23.88
+                        },
+                        {
+                            "codConcept": "RESFUEL0",
+                            "amount": 86.73
+                        },
+                        {
+                            "codConcept": "RESSTEP0TAX",
+                            "amount": 62.12
+                        },
+                        {
+                            "codConcept": "RESSTEP0",
+                            "amount": 301.62
+                        }
+                    ],
+                    "msno": "45077353584",
+                    "pMethod": "KPLC;KPLCSMS4",
+                    "debtRefNo": null,
+                    "codUnicom": 2113,
+                    "trnUnits": 24.64,
+                    "trnAmount": 500,
+                    "coConcepto": null
+                },
+                {
+                    "servicePointNo": "10699656A0|AR031|2113",
+                    "trnTimestamp": 1714573833000,
+                    "tokenNo": "30655114107294379513",
+                    "accountNumber": "112337183-S1",
+                    "custName": "112337183-S1",
+                    "customerNumber": "931063-S1",
+                    "transactionId": 0,
+                    "recptNo": null,
+                    "concepts": [
+                        {
+                            "codConcept": "RESREPL0",
+                            "amount": 5.83
+                        },
+                        {
+                            "codConcept": "RESWARMAL0",
+                            "amount": 0.14
+                        },
+                        {
+                            "codConcept": "RESERCL0",
+                            "amount": 0.76
+                        },
+                        {
+                            "codConcept": "RESINFL0",
+                            "amount": 3.14
+                        },
+                        {
+                            "codConcept": "RESFOREX0",
+                            "amount": 18.67
+                        },
+                        {
+                            "codConcept": "RESFUEL0",
+                            "amount": 31.08
+                        },
+                        {
+                            "codConcept": "RESSTEP0TAX",
+                            "amount": 23.64
+                        },
+                        {
+                            "codConcept": "RESSTEP0",
+                            "amount": 116.74
+                        }
+                    ],
+                    "msno": "45077353584",
+                    "pMethod": "KPLC;KPLCSMS4",
+                    "debtRefNo": null,
+                    "codUnicom": 2113,
+                    "trnUnits": 9.53,
+                    "trnAmount": 200,
+                    "coConcepto": null
+                },
+                {
+                    "servicePointNo": "10699656A0|AR031|2113",
+                    "trnTimestamp": 1711087307000,
+                    "tokenNo": "67107500570763972333",
+                    "accountNumber": "112337183-S1",
+                    "custName": "112337183-S1",
+                    "customerNumber": "931063-S1",
+                    "transactionId": 0,
+                    "recptNo": null,
+                    "concepts": [
+                        {
+                            "codConcept": "RESREPL0",
+                            "amount": 13.22
+                        },
+                        {
+                            "codConcept": "RESWARMAL0",
+                            "amount": 0.31
+                        },
+                        {
+                            "codConcept": "RESERCL0",
+                            "amount": 1.72
+                        },
+                        {
+                            "codConcept": "RESINFL0",
+                            "amount": 7.13
+                        },
+                        {
+                            "codConcept": "RESFOREX0",
+                            "amount": 79.53
+                        },
+                        {
+                            "codConcept": "RESFUEL0",
+                            "amount": 78.65
+                        },
+                        {
+                            "codConcept": "RESSTEP0TAX",
+                            "amount": 54.9
+                        },
+                        {
+                            "codConcept": "RESSTEP0",
+                            "amount": 264.54
+                        }
+                    ],
+                    "msno": "45077353584",
+                    "pMethod": "KPLC;KPLCSMS4",
+                    "debtRefNo": null,
+                    "codUnicom": 2113,
+                    "trnUnits": 21.61,
+                    "trnAmount": 500,
+                    "coConcepto": null
+                },
+                {
+                    "servicePointNo": "10699656A0|AR031|2113",
+                    "trnTimestamp": 1711043188000,
+                    "tokenNo": "38743736988783475889",
+                    "accountNumber": "112337183-S1",
+                    "custName": "112337183-S1",
+                    "customerNumber": "931063-S1",
+                    "transactionId": 0,
+                    "recptNo": null,
+                    "concepts": [
+                        {
+                            "codConcept": "RESFOREX0",
+                            "amount": 15.9
+                        },
+                        {
+                            "codConcept": "RESFUEL0",
+                            "amount": 15.73
+                        },
+                        {
+                            "codConcept": "RESSTEP0TAX",
+                            "amount": 10.97
+                        },
+                        {
+                            "codConcept": "RESSTEP0",
+                            "amount": 52.94
+                        },
+                        {
+                            "codConcept": "RESREPL0",
+                            "amount": 2.64
+                        },
+                        {
+                            "codConcept": "RESWARMAL0",
+                            "amount": 0.06
+                        },
+                        {
+                            "codConcept": "RESERCL0",
+                            "amount": 0.34
+                        },
+                        {
+                            "codConcept": "RESINFL0",
+                            "amount": 1.42
+                        }
+                    ],
+                    "msno": "45077353584",
+                    "pMethod": "KPLC;KPLCSMS4",
+                    "debtRefNo": null,
+                    "codUnicom": 2113,
+                    "trnUnits": 4.32,
+                    "trnAmount": 100,
+                    "coConcepto": null
+                }
+            ],
+            "prepayment": true
+        }
+    ]
+}

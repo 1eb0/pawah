@@ -1,0 +1,308 @@
+/* Import the Montserrat Alternates font */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada:wght@400;700&family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+
+/* Global styles */
+body {
+  font-family: 'Sora', sans-serif;
+  /* Apply the font here */
+  background-color: #f4f4f4;
+  padding: 0;
+  max-width: 1750px;
+  margin: auto;
+}
+
+.user-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-family: 'Saira Stencil One', sans-serif;
+  /* Apply the font here */
+  color: #195191;
+  /* Primary Color */
+  font-weight: 700;
+  /* Use bold weight for headers */
+  font-size: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  /* background: #ffffff63; */
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  /* border-radius: 8px; */
+  margin-top: 50px;
+}
+
+input {
+  width: calc(100% - 52px);
+  padding: 10px;
+  margin: 10px auto;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* Apply the font here */
+}
+
+button {
+  /* width: 100%; */
+  padding: 10px;
+  background: #079153;
+  /* Secondary Color */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: 'Montserrat Alternates', sans-serif;
+  /* Apply the font here */
+}
+
+button:hover {
+  background: #067844;
+}
+
+.login-page h1,
+.verification-form h1 {
+  text-align: center;
+}
+
+.login-form,
+.verification-form {
+  margin-top: 135px;
+  display: grid;
+}
+
+.verification-form button {
+  width: 210px;
+  margin: 20px auto 0;
+}
+
+.login-form button {
+  display: grid;
+  margin-top: 20px;
+  width: 90px;
+  margin-left: auto;
+  margin-right: 30px;
+}
+
+video {
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.login-video {
+  top: 75px;
+  position: absolute;
+  z-index: -1;
+  max-width: 600px;
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  transition: all 1s ease;
+}
+
+.error,
+.error-msg {
+  width: 600px;
+  position: absolute;
+  bottom: 0;
+  height: 65px;
+  background: #ff696173;
+  color: #A80900;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+.error img {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.login-page,
+.verification-form {
+  max-width: 600px;
+}
+
+
+.transactions-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.transaction {
+  background: #fecf0a;
+  padding: 10px 0 10px 20px;
+  border-radius: 4px;
+}
+
+.token-no {
+  font-size: 17px;
+  font-weight: 550;
+}
+
+.units-amt {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.money-section p {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+.logo-text {
+  font-size: 29px;
+  display: flex;
+  align-items: center;
+  text-align: right;
+  color: #195191;
+}
+
+.time-since {
+  padding: 5px;
+  border-radius: 3px;
+  color: white;
+  width: 229px;
+  text-align: center;
+}
+
+.time-since.newer {
+  background-color: #195191;
+  /* Primary Color */
+}
+
+.time-since.older {
+  background-color: red;
+}
+
+.payment-date {
+  font-size: 27px;
+  font-weight: 500;
+  margin-bottom: 0;
+}
+
+.payment-time {
+  margin-bottom: 0;
+  margin-top: 5px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.calendar-icon {
+  margin-top: 7px;
+  width: -moz-fit-content;
+  height: 50px;
+}
+
+.calendar-icon img {
+  height: 100%;
+}
+
+.transaction-date {
+  width: fit-content;
+  margin-left: 20px;
+}
+
+
+.date-details {
+  align-items: center;
+  display: flex;
+}
+
+.money-section img {
+  height: 25px;
+}
+
+.money-section {
+  display: flex;
+}
+
+.money-section p {
+  margin: 6px;
+}
+
+
+.more-details-link p {
+  color: #0d9157;
+  margin: 0;
+}
+
+.more-details-link {
+  display: flex;
+  margin-top: 10px;
+}
+
+
+.more-details-icon {
+  margin: 1px 0 0 3px;
+  height: 18px;
+}
+
+.add-icon {
+  align-self: auto !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 497px) {
+  .transactions-grid {
+    display: block;
+  }
+
+  .transaction {
+    background: #fecf0a;
+    padding: 10px 0 20px 30px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+
+  .container {
+    margin-top: 10px;
+  }
+
+  .logo-container img {
+    height: 60px !important;
+  }
+
+  .logo-container h2 {
+    font-size: 25px;
+  }
+
+  .error,
+  .error-msg {
+    max-width: 300px;
+    height: 30px;
+    padding: 15px 5px;
+  }
+
+}

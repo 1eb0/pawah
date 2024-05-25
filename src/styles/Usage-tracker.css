@@ -1,0 +1,169 @@
+/* .usage-tracker {
+    padding: 20px;
+  }
+  
+  .no-usage {
+    color: red;
+    margin-bottom: 20px;
+  }
+  
+  .consumption-data {
+    margin-bottom: 20px;
+  }
+  
+  
+  
+  .balance-input {
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  .add-usage-button {
+    padding: 10px;
+    background-color: #195191;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .add-usage-button:hover {
+    background-color: #079153;
+  }
+  
+  .error-message {
+    color: red;
+    margin-top: 10px;
+  } */
+
+  .usage-section {
+    justify-content: center;
+    align-items: center;
+    padding: 15px 20px 7px;
+    border: 4px outset #195292;
+    border-bottom: none;
+    display: flex;
+    margin: 20px 20px 0;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.usage-section h2 {
+  margin: 0 10px 10px 0;
+  font-size: 18px;
+  padding-left: 9px;
+}
+
+.usage-section p {
+  width: 295px;
+}
+
+.usage-section p {
+  margin: 2px 5px 2px 0;
+  width: 295px;
+}
+
+.add-usage-form {
+  margin-top: 10px;
+}
+
+.balance-input {
+  margin-right: 10px;
+}
+
+.usage-entry {
+  margin-top: 10px;
+}
+
+.usage-section button {
+  height: 30px;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 20px;
+  cursor: pointer;
+  background-color: #195191;
+  align-self: flex-start;
+}
+
+.add-usage-form {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.usage-section button img {
+  height: 100%;
+}
+
+.usage-subsection-1 {
+  margin-right: 110px;
+}
+
+
+.add-icon {
+  background: #19519100 !important;
+  height: 42px !important;
+  margin-top: 0 !important;
+}
+
+
+.usage-messages img {
+  height: 30px;
+  margin-right: 10px;
+  align-self: flex-start;
+}
+
+.usage-messages {
+  display: flex;
+  align-items: center;
+}
+
+.usage-data {
+  margin: 10px 0 0 40px;
+  font-weight: 600;
+  font-size: 15px;
+}
+
+
+
+/* .button:focus {
+  outline: none;
+} */
+
+
+
+
+
+@media only screen and (max-width: 497px) {
+  .usage-section {
+    align-items: unset;
+    padding: 15px 20px 17px;
+  }
+
+  .usage-subsection-1 h2, .usage-subsection-1 p {
+    width: 210px;
+}
+
+.usage-subsection-1 {
+  margin-right: unset;
+}
+
+.usage-section {
+  display: block;
+}
+
+.usage-section button {
+  margin-top: 20px;
+  font-size: 15px;
+}
+
+.usage-subsection-1 h2 {
+  margin-bottom: 20px;
+}
+
+.usage-section button {
+  align-self: initial;
+}
+
+
+}
