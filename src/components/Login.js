@@ -20,7 +20,7 @@ const Login = () => {
     try {
       const response = await axios.get(`https://selfservice.kplc.co.ke/api/publicData/2.0.1/newContractList?serialNumberMeter=${meterNumber}`, {
         headers: {
-          'Authorization': 'Bearer 4e794c549af110d58da2caf765d29a07',
+          'Authorization': 'Bearer 63167c4f684efe7d9c381c34ee8854d7',
         }
       });
       if (response.data) {
