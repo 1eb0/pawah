@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, {useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import '../styles/App.css';
@@ -8,19 +8,12 @@ const Login = () => {
   const [meterNumber, setMeterNumber] = useState('');
   const [error, setError] = useState('');
   const navigate = useNavigate();
-  const videoRef = useRef(null);
-
-  useEffect(() => {
-    if (videoRef.current) {
-      videoRef.current.playbackRate = 0.7; // Set playback rate to 0.7x
-    }
-  }, []);
 
   const handleLogin = async () => {
     try {
       const response = await axios.get(`https://selfservice.kplc.co.ke/api/publicData/2.0.1/newContractList?serialNumberMeter=${meterNumber}`, {
         headers: {
-          'Authorization': 'Bearer 63167c4f684efe7d9c381c34ee8854d7',
+          'Authorization': 'Bearer 48bd83d44aa5b2fc6ac83b271f8e493f',
         }
       });
       if (response.data) {
@@ -41,21 +34,6 @@ const Login = () => {
     <div className="container login-page">
       <h1>Login</h1>
       <div className="login-form">
-        {/* <div>
-          <video
-            ref={videoRef}
-            width="100%"
-            height="auto"
-            autoPlay
-            loop
-            muted
-            playsInline
-            className="login-video"
-          >
-            <source src="/videos/login-anim.mp4" type="video/mp4" />
-            Your browser does not support the video tag.
-          </video>
-        </div> */}
         <input
           type="text"
           value={meterNumber}
